@@ -1,0 +1,7 @@
+2024-08-21 13:18:45.751 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7246/api/Walks?PageNumber=1&PageSize=1000 - null null
+2024-08-21 13:18:45.768 +03:30 [INF] Executing endpoint 'NZWalks.API.Controllers.WalksController.GetAll (NZWalks.API)'
+2024-08-21 13:18:45.771 +03:30 [INF] Route matched with {action = "GetAll", controller = "Walks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(System.String, System.String, System.String, System.Nullable`1[System.Boolean], Int32, Int32) on controller NZWalks.API.Controllers.WalksController (NZWalks.API).
+2024-08-21 13:18:45.824 +03:30 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2024-08-21 13:18:45.830 +03:30 [INF] Executed action NZWalks.API.Controllers.WalksController.GetAll (NZWalks.API) in 44.7927ms
+2024-08-21 13:18:45.833 +03:30 [INF] Executed endpoint 'NZWalks.API.Controllers.WalksController.GetAll (NZWalks.API)'
+2024-08-21 13:18:45.836 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7246/api/Walks?PageNumber=1&PageSize=1000 - 500 null application/problem+json; charset=utf-8 85.9904ms
